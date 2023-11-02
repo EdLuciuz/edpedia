@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap');
+
+/*1180x775 mobile app*/
+
+.page {
+    margin: 0.5em 3em 0 3em;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+    gap: 3em;
+}
+/* navbar */
+
+.logo {
+    font-family: Poppins;
+    color: #0d5c7b;
+    letter-spacing: 1px;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding-bottom: 3em;
+}
+
+.search-icon {
+    width: 1.3em;
+    height: auto;
+    align-self: center;
+}
+
+.cart-icon {
+    width: 2em;
+    flex: 0 1 auto;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex: 1 0 auto;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.searchbar {
+    margin-left: 10px;
+    width: auto;
+    height: 2.5em;
+    display: flex;
+    padding: 0 10px;
+    border: solid #0d5c7b 3px;
+    border-radius: 10px;
+    gap: 10px;
+    flex: 1 0 auto;
+}
+
+input:focus {
+    outline: none;
+    align-self: center;
+}
+
+.search-text {
+    font-size: 15px;
+    border: none;
+    height: 2em;
+    align-self: center;
+    flex: 1 1 auto;
+}
+
+.log-in {
+    padding: 0 16px;
+    border: solid #0d5c7b 3px;
+    border-radius: 10px;
+    height: 3em;
+    align-items: center;
+    cursor: pointer;
+    font-family: Poppins;
+    color: #0d5c7b;
+    font-size: 15px;
+}
+
+.sign-up {
+    padding: 0 16px;
+    border: solid #0d5c7b 3px;
+    border-radius: 10px;
+    height: 3em;
+    align-items: center;
+    cursor: pointer;
+    font-family: Poppins;
+    color: #fefff5;
+    font-size: 15px;
+    background-color: #0d5c7b;
+    transition: none;
+}
+
+.sign-up:hover {
+    background-color: #1e8db9;
+    transition: 0.5s;
+}

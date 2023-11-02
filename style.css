@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap');
+
+/*1180x775 mobile app*/
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    background-color:#fefff5;
+}
+
+.page {
+    margin: 0.5em 3em 0 3em;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+    gap: 3em;
+}
+
+.banner-box {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: end;
+    margin: 1em 0 0 2em;
+}
+
+.banner {
+    width: 78vw;
+}
+
+/* Left side */
+.left {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-width: 220px;
+    border: solid 1px rgb(218, 218, 218);
+    box-shadow: var(--NN500,rgba(141,150,170,0.4)) 0px 1px 6px 0px;
+    border-radius: 20px;
+    flex: 0 0 0;
+    align-self: flex-start;
+}
+
+.left-top-title {
+    border-radius: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.arrow-up {
+    width: 1.3em;
+    border-radius: inherit;
+}
+
+.categories-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: inherit;
+}
+
+.category
+
+.cate-ul {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 0;
+    border-bottom: solid 1px rgb(190, 190, 190);
+}
+
+li {
+    width: 100%;
+    list-style: none;
+    margin: 5px;
+    font-size: 19px;
+    height: 34px;
+    white-space: nowrap;
+}
+
+.wallet-title {
+    font-size: 1.5em;
+
+    font-weight: bold;
+    border-radius: inherit;
+}
+
+.wallet {
+    border-radius: inherit;
+    margin-top: 20px;
+}
+
+.paypal {
+    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 0;
+    border: solid 3px #253B80;
+    border-radius: inherit;
+    gap: 10px;
+}
+
+.paypal-logo {
+    width: 8em;
+}
+
+.balance {
+    padding: 10px;
+}
+
+.paypal-span {
+    color: #253B80;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.banner-box {
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    flex: 1 1 0;
+}
+
+.products {
+    display: flex;
+    margin-top: 3em;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+}
+
+.item-a {
+    text-decoration: none;
+}
+
+.item {
+    border: solid 1px rgb(218, 218, 218);
+    box-shadow: var(--NN500,rgba(141,150,170,0.4)) 0px 1px 6px 0px;
+    border-radius: 20px;
+    width: 13em;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 0;
+}
+
+.item-image {
+    width: 100%;
+    display: flex;
+    flex: 1 1 auto;
+    border-radius: inherit;
+    align-self: center;
+}
+
+.list {
+    border-top: solid 1px rgb(218, 218, 218);
+    border-radius: 0 0 20px 20px;
+    padding: 1em;
+}
+
+.name , .price {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 0 0.5em 0;
+    color: black;
+}
+
+.name {
+    font-weight: 100;
+}
+
+.price {
+    letter-spacing: 1px;
+}
+
+.rating {
+    display: flex; 
+    align-items: center;
+    color: black;
+}
+
+.star {
+    width: 1.3em;
+    margin-right: 0.5em;
+}
+
+.rating-number {
+    font-size: 20px;
+}
+
+.footer {
+    align-self: flex-end;
+    background-color: #0d5c7b;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    background-color: rgba(0, 0, 0, 0);
+    align-self: center;
+    color: white;
+    font-weight: 600;
+}
